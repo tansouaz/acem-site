@@ -79,7 +79,8 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative overflow-hidden bg-gradient-to-b from-[#1e110b] via-[#362912] to-[#894a10] py-24 text-white md:py-28"
+    className="relative overflow-hidden bg-gradient-to-b from-[#1e110b] via-[#362912] to-[#894a10] py-24 text-white md:py-28"
+
     >
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(249,115,22,0.08),transparent_28%)]" />
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.02),transparent_20%,transparent_80%,rgba(255,255,255,0.02))]" />

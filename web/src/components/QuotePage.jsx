@@ -580,8 +580,8 @@ function FloatingSelect({
           onChange={onChange}
           required={required}
           disabled={disabled}
-          className={`peer w-full appearance-none bg-transparent pb-4 pt-7 text-white outline-none ${
-            icon ? "px-12" : "px-4"
+          className={`peer w-full appearance-none bg-transparent px-4 pb-3 pt-8 text-white outline-none ${
+            icon ? "pl-12 pr-10" : "pr-10"
           }`}
         >
           <option value="" className="text-black">
@@ -612,7 +612,7 @@ function FloatingSelect({
           } ${
             active
               ? "top-3 text-xs text-orange-300"
-              : "top-1/2 -translate-y-1/2 text-base text-white/35 peer-focus:top-3 peer-focus:translate-y-0 peer-focus:text-xs peer-focus:text-orange-300"
+              : "top-3 -translate-0 text-base text-white/35 peer-focus:top-3 peer-focus:translate-y-0 peer-focus:text-xs peer-focus:text-orange-300"
           }`}
         >
           {label}
